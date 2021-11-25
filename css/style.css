@@ -1,0 +1,369 @@
+body {
+  background-color: #2a1f2d;
+}
+
+/*nav section*/
+#nav-bar {
+  background-color: #1a9e5e;
+  font-weight: 600;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+}
+
+#nav-bar .img-fluid {
+  width: 120px;
+  border-radius: 5px;
+  border: 4px dotted #b2e6d6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#nav-bar .img-fluid:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+#nav-bar .bi {
+  padding: 10px;
+}
+
+#nav-bar a {
+  color: #b2e6d6;
+}
+
+#nav-bar a:hover {
+  color: black;
+}
+
+#nav-bar a:active {
+  color: #bbf8bb;
+}
+
+/*head section*/
+#head {
+  padding: 5%;
+  color: white;
+  background-image: url("/images/collab1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#head:hover {
+  opacity: 80%;
+}
+
+#head .title {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Lucida Console", Courier, monospace;
+  padding: 3%;
+}
+
+#head p {
+  font-size: 20px;
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+#head #futurePlans {
+  font-weight: 600;
+}
+
+#head #futurePlans .img-fluid {
+  border-radius: 30px;
+}
+
+/*About Me Section*/
+#aboutme {
+  padding: 80px 20px;
+  color: #b2e6d6;
+}
+
+#aboutme .intro {
+  background-color: #1a9e5e;
+  margin: 50px 10px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  opacity: 0.7;
+}
+
+#aboutme .intro h3 {
+  color: black;
+}
+
+#aboutme .intro:hover {
+  opacity: 1;
+}
+
+#aboutme p {
+  text-align: left;
+  font-weight: 600;
+}
+
+#aboutme .title {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+#aboutme .card {
+  margin-top: 20px;
+  height: 24rem;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #2a1f2d;
+  border: 1px solid #1a9e5e;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#aboutme .card:hover {
+  opacity: 1;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+#aboutme .card-body {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#aboutme .card-img-top {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+#aboutme .accordion-button {
+  background-color: #bbf8bb;
+  font-weight: 600;
+}
+
+#aboutme .accordion-item {
+  width: 70%;
+  margin: auto;
+  background-color: #2a1f2d;
+  opacity: 0.8;
+  border: 1px solid #b2e6d6;
+}
+
+#aboutme .accordion-item:hover {
+  opacity: 1;
+}
+
+#aboutme .accordion-item .img-fluid {
+  height: 100%;
+}
+
+/*Portfolio Section*/
+#portfolio {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2a1f2d), color-stop(#448b69), to(#2a1f2d));
+  background-image: linear-gradient(#2a1f2d, #448b69, #2a1f2d);
+  color: #b2e6d6;
+  padding: 80px 20px;
+}
+
+#portfolio .title {
+  color: #bbf8bb !important;
+}
+
+#portfolio .mags {
+  padding-bottom: 5%;
+  margin: auto;
+}
+
+#portfolio .mags p {
+  color: #bbf8bb;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.3;
+}
+
+#portfolio .mags p:hover {
+  opacity: 1;
+}
+
+#portfolio .mags .img-fluid {
+  width: 100%;
+  height: 450px;
+  opacity: 0.5;
+  border-radius: 30px;
+}
+
+#portfolio .mags .img-fluid:hover {
+  opacity: 1;
+}
+
+#portfolio .liveweb {
+  margin: auto;
+}
+
+#portfolio .liveweb .img-fluid {
+  width: 100%;
+  height: 400px;
+  -webkit-box-shadow: 10px 10px 10px 10px #b2e6d6;
+          box-shadow: 10px 10px 10px 10px #b2e6d6;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border: 1px solid #1a9e5e;
+}
+
+#portfolio .otherworks {
+  border: 2px solid #bbf8bb;
+  width: 50vw;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px #bbf8bb;
+          box-shadow: 10px 10px #bbf8bb;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+#portfolio .otherworks:hover {
+  opacity: 1;
+}
+
+#portfolio #activities p {
+  text-align: left;
+  font-weight: 600;
+}
+
+#portfolio #activities .card {
+  margin-top: 10px;
+  height: 26rem;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: #2a1f2d;
+  border: 2px solid #b2e6d6;
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#portfolio #activities .card:hover {
+  opacity: 1;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+#portfolio #activities .card-body {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#portfolio #activities .card-img-top {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  height: 10rem;
+}
+
+#portfolio #activities .btn {
+  width: 200px;
+  margin: auto;
+  font-weight: 600;
+}
+
+#portfolio #current {
+  font-weight: 600;
+  background: #2a1f2d;
+  -webkit-box-shadow: 10px 10px 10px 10px #bbf8bb;
+          box-shadow: 10px 10px 10px 10px #bbf8bb;
+  padding: 5%;
+}
+
+#portfolio #current .img-fluid {
+  height: 12rem;
+  width: 100%;
+  padding: 5%;
+  -webkit-box-shadow: 10px 10px #1a9e5e;
+          box-shadow: 10px 10px #1a9e5e;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+#portfolio #current .img-fluid:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+#footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a9e5e), to(#2a1f2d));
+  background-image: linear-gradient(#1a9e5e, #2a1f2d);
+  color: #b2e6d6;
+}
+
+#footer .footer-box {
+  padding: 20px;
+}
+
+#footer .footer-box .img-fluid {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#footer .bi {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+#footer hr {
+  background-color: white;
+}
+
+#footer .copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*Future section*/
+#future {
+  background-image: url("/images/future1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: #b2e6d6;
+  font-weight: 600;
+}
+
+#future .card {
+  -webkit-box-shadow: 10px 10px 10px #2a1f2d;
+          box-shadow: 10px 10px 10px #2a1f2d;
+  height: 20rem;
+  background-color: #2a1f2d;
+  opacity: 0.8;
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+#future .card:hover {
+  opacity: 1;
+}
+
+#future .card .card-img {
+  height: 100%;
+  opacity: 0.5;
+}
+
+/*contact sectioin*/
+#contact {
+  color: #bbf8bb;
+  font-weight: 600;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: Verdana;
+}
+
+#contact h1, #contact p {
+  color: #b2e6d6;
+}

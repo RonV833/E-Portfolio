@@ -1,0 +1,326 @@
+$ronbgcolor: rgb(42, 31, 45);
+$rontextcolor: rgb(178, 230, 214);
+$roncolor1:  rgb(26, 158, 94);
+$roncolor2:  rgb(187, 248, 187);
+$ronfontweigght: 600;
+$ronfontsizetitle: 40px;
+$ronfontsizedetails: 20px;
+$ronfont1:Verdana;
+$ronfont2: "Lucida Console", Courier, monospace;
+$padding: 80px 20px;
+$padding-top-bottom: 5%;
+$borderradius: 30px;
+
+
+body {
+    background-color: $ronbgcolor;
+}
+/*nav section*/
+#nav-bar {
+    background-color: $roncolor1;
+    font-weight: $ronfontweigght;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+    
+    .img-fluid {
+        width: 120px;
+        border-radius: 5px;
+        border: 4px dotted $rontextcolor;
+        transition: 0.5s;
+        &:hover {
+            transform: translateY(-10px); 
+        }
+    }
+    .bi {
+        padding: 10px;
+    }
+    a {
+        color: $rontextcolor;
+        &:hover {
+            color: black;
+        }
+        &:active {
+            color: $roncolor2;
+        }
+    }
+}
+/*head section*/
+#head {
+    padding: $padding-top-bottom;
+    color:white;
+    background-image: url("/images/collab1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    &:hover {
+        opacity: 80%;
+    }
+    .title {
+        font-size: $ronfontsizetitle;
+        font-weight: 800;
+        font-family: $ronfont2;
+        padding: 3%;
+        
+    }
+    p {
+        font-size: $ronfontsizedetails;
+        font-family: $ronfont2;
+        font-weight: $ronfontweigght;
+        padding-top: $padding-top-bottom;
+    }
+    #futurePlans {
+        font-weight: $ronfontweigght;
+        .img-fluid {
+            border-radius: $borderradius;
+        }
+    }
+}
+/*About Me Section*/
+#aboutme {
+    padding: $padding;
+    color: $rontextcolor;
+    .intro {
+        background-color: $roncolor1;
+        margin: 50px 10px;
+        padding: 30px 20px;
+        
+        border-radius: $borderradius;
+        opacity: 0.7;
+        h3 {
+            color: black;
+        }
+        &:hover {
+            opacity: 1;
+        }
+    }
+    p {
+        text-align: left;
+        
+        font-weight: $ronfontweigght;
+    }
+    .title {
+        font-size: $ronfontsizetitle;
+        font-weight: $ronfontweigght;
+        font-family: $ronfont2;
+    }
+    .card {
+        margin-top: 20px;
+        height: 24rem;
+        margin-bottom: 20px;
+        border-radius: $borderradius;
+        background-color: $ronbgcolor;
+        border: 1px solid $roncolor1;
+        opacity: 0.5;
+        transition: 0.5s;
+        &:hover {
+            opacity: 1;
+            transform: translateY(-10px);
+        }
+    }
+    .card-body{
+        border-bottom-right-radius: $borderradius;
+        border-bottom-left-radius: $borderradius;
+    }
+    .card-img-top {
+        border-top-right-radius: $borderradius;
+        border-top-left-radius: $borderradius;
+    }
+    .accordion-button {
+        background-color: $roncolor2;
+        font-weight: $ronfontweigght;
+    }
+    .accordion-item {
+        width: 70%;
+        margin: auto;
+        background-color:$ronbgcolor;
+        opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+        .img-fluid {
+            height: 100%;
+        }
+        border: 1px solid $rontextcolor;
+        
+    }
+}
+/*Portfolio Section*/
+#portfolio {
+    background-image: linear-gradient( rgb(42, 31, 45),rgb(68, 139, 105),rgb(42, 31, 45));
+    color: $rontextcolor;
+    padding: $padding;
+
+    .title {
+        color: $roncolor2 !important;
+        
+    }
+    .mags {
+        padding-bottom: $padding-top-bottom;
+        margin: auto;
+        
+        p {
+            color: $roncolor2;
+            font-weight: $ronfontweigght;
+            font-size: $ronfontsizedetails;
+            opacity: 0.3;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        .img-fluid {
+            width: 100%;
+            height: 450px;
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+            }
+            border-radius: $borderradius;
+        }
+    }
+    .liveweb {
+        margin: auto;
+        .img-fluid {
+            width: 100%;
+            height: 400px;
+            box-shadow: 10px 10px 10px 10px $rontextcolor;
+            margin-bottom: $padding-top-bottom;
+            margin-top: $padding-top-bottom;
+            border: 1px solid $roncolor1;
+        }
+    }
+    .otherworks {
+        border: 2px solid $roncolor2;
+        width: 50vw;
+        margin: auto; 
+        box-shadow: 10px 10px $roncolor2;  
+        font-size: $ronfontsizedetails;
+        opacity: 0.8;
+        &:hover {
+            opacity: 1;
+        }
+
+    }
+    #activities {
+        p {
+            text-align: left;
+            font-weight: $ronfontweigght;
+        }
+        .card {
+            margin-top: 10px;
+            height: 26rem;
+            margin-bottom: 20px;
+            border-radius: $borderradius;
+            background-color: $ronbgcolor;
+            border: 2px solid $rontextcolor;
+            opacity: 0.5;
+            transition: 0.5s;
+            &:hover {
+                opacity: 1;
+                transform: translateY(-10px);
+            }
+        }
+        .card-body{
+            border-bottom-right-radius: $borderradius;
+            border-bottom-left-radius: $borderradius;
+        }
+        .card-img-top {
+            border-top-right-radius: $borderradius;
+            border-top-left-radius: $borderradius;
+            height: 10rem;
+        }
+        .btn {
+            width: 200px;
+            margin: auto;
+            font-weight: $ronfontweigght;
+        }
+    }
+    #current {
+        font-weight: $ronfontweigght;
+        background: $ronbgcolor;
+        box-shadow: 10px 10px 10px 10px $roncolor2;
+        padding: $padding-top-bottom;
+        .img-fluid {
+            height: 12rem;
+            width: 100%;
+            padding: $padding-top-bottom;
+            box-shadow: 10px 10px $roncolor1;
+            transition: 0.6s;
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+}
+#footer {
+    background-image: linear-gradient(rgb(26, 158, 94),rgb(42, 31, 45));
+    color: $rontextcolor;
+    .footer-box {
+        padding: 20px;
+        .img-fluid {
+            width: 200px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            text-align: center;
+        }
+    }
+    .bi {
+        margin-right: 8px;
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    hr {
+        background-color: white;
+    }
+    .copyright {
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+}
+/*Future section*/
+#future {
+    background-image: url("/images/future1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: $padding;
+    color: $rontextcolor;
+    font-weight: $ronfontweigght;
+    
+    
+    .card {
+        box-shadow: 10px 10px 10px $ronbgcolor;
+        height: 20rem;
+        background-color: $ronbgcolor;
+        opacity: 0.8;
+        &:hover {
+            opacity: 1;
+        }
+        margin-bottom: 15%;
+        margin-top: 15%;
+        .card-img {
+            height: 100%;
+            opacity: 0.5;
+        }
+    }
+}
+/*contact sectioin*/
+#contact {
+    color: $roncolor2;
+    font-weight: $ronfontweigght;
+    text-align: center;
+    padding: $padding;
+    font-family: $ronfont1;
+    h1, p {
+        color: $rontextcolor;
+    }
+}
+
