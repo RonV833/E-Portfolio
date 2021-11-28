@@ -45,14 +45,11 @@ body {
 #head {
   padding: 5%;
   color: white;
-  background-image: url("/images/collab1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  opacity: 0.8;
 }
 
 #head:hover {
-  opacity: 80%;
+  opacity: 1;
 }
 
 #head .title {
@@ -214,7 +211,7 @@ body {
 
 #portfolio .otherworks {
   border: 2px solid #bbf8bb;
-  width: 50vw;
+  width: 65%;
   margin: auto;
   -webkit-box-shadow: 10px 10px #bbf8bb;
           box-shadow: 10px 10px #bbf8bb;
@@ -327,10 +324,8 @@ body {
 
 /*Future section*/
 #future {
-  background-image: url("/images/future1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1a9e5e), to(#2a1f2d));
+  background-image: linear-gradient(#1a9e5e, #2a1f2d);
   padding: 80px 20px;
   color: #b2e6d6;
   font-weight: 600;

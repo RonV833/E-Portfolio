@@ -49,14 +49,9 @@ body {
 #head {
     padding: $padding-top-bottom;
     color:white;
-    background-image: url("/images/collab1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    
+    opacity: 0.8;
     &:hover {
-        opacity: 80%;
+        opacity: 1;
     }
     .title {
         font-size: $ronfontsizetitle;
@@ -193,7 +188,7 @@ body {
     }
     .otherworks {
         border: 2px solid $roncolor2;
-        width: 50vw;
+        width: 65%;
         margin: auto; 
         box-shadow: 10px 10px $roncolor2;  
         font-size: $ronfontsizedetails;
@@ -287,10 +282,7 @@ body {
 }
 /*Future section*/
 #future {
-    background-image: url("/images/future1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(rgb(26, 158, 94),rgb(42, 31, 45));
     padding: $padding;
     color: $rontextcolor;
     font-weight: $ronfontweigght;
