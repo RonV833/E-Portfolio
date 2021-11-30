@@ -41,6 +41,10 @@ body {
   color: #bbf8bb;
 }
 
+#nav-bar .dropdown-menu {
+  background-color: #2a1f2d !important;
+}
+
 /*head section*/
 #head {
   padding: 5%;
